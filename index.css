@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  fonts */
+@font-face {
+font-family: PtSansWebBold;
+src: url(font/pt_sans-web-bold.ttf);
+}
+@font-face {
+font-family: PtSansWebBoldItalic;
+src: url(font/pt_sans-web-bolditalic.ttf);
+}
+@font-face {
+font-family: PtSansWebItalic;
+src: url(font/pt_sans-web-italic.ttf);
+}
+@font-face {
+font-family: PtSansWebRegular;
+src: url(font/pt_sans-web-regular.ttf);
+}
+body {
+		font-family: PtSansWebRegular;
+}
+h1 {
+		font-family: PtSansWebBold;
+		font-size: 11px;
+		text-transform: uppercase;
+	  letter-spacing: 2px;
+}
+h2 {
+		font-family: PtSansWebBold;
+		etter-spacing: 2.5px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-align: center;
+		line-height: 2.5em;
+}
+p {
+		font-family: PtSansWebRegular;
+		font-size: 12px;
+		color: #838199;
+		text-align: center;
+	  line-height: 1.8em;
+}
+/*  fonts */
+.bike-container {
+	    padding: 0 200px;
+			width: 1120px;
+}
+/* intro section */
+}
+.hero img {
+  width: 100%;
+}
+.topbar {
+	position: absolute;
+  width: 100%;
+  margin-top: 23px;
+}
+.topbar ul {
+	width: 547px;
+	margin: 0 auto;
+}
+.topbar li {
+  display: inline-block;
+	padding: 0 20px;
+	float: left;
+	position: relative;
+	top: 52px;
+	transform: translateY(-50%);
+}
+.topbar li a {
+	text-decoration: none;
+	color: #4D4B56;
+}
+.topbar li a img {
+	width: 60px;
+}
+.topbar li a:hover{
+	text-decoration: none;
+	color: #ff000069;
+}
+.topbar p {
+  display: inline-block;
+	padding: 0 20px;
+	float: left;
+	position: relative;
+	top: 52px;
+	transform: translateY(-50%);
+}
+/* navigation section */
+.secondary-container{
+	background-color: #F7F7F7
+}
+.secondary-container-new-gen {
+	width: 100%;
+	width: 723px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	display: inline-block;
+	align-content: center;
+  color: #4D4B56;
+	padding: 50px 150px 80px 150px;
+}
+.secondary-container-new-gen img {
+	width: 35px;
+}
