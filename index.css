@@ -74,9 +74,8 @@ h1 {
 }
 h2 {
 		font-family: PtSansWebBold;
-		etter-spacing: 2.5px;
+		letter-spacing: 2.5px;
 		text-transform: uppercase;
-		letter-spacing: 2px;
 		text-align: center;
 		line-height: 2.5em;
 }
@@ -87,10 +86,38 @@ p {
 		text-align: center;
 	  line-height: 1.8em;
 }
+.last span {
+	font-family: PtSansWebBold;
+	display: inline;
+	font-size: 12px;
+	text-align: center;
+	line-height: 2.8em;
+	letter-spacing: 1.5px;
+}
+.last .twitter-time{
+	font-family: PtSansWebRegular;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: #b2b1bd;
+	padding-left: 6px;
+}
+
+.last p
+{
+		font-family: PtSansWebItalic;
+		font-size: 14px;
+		color: #838199;
+		text-align: center;
+	  line-height: 1.8em;
+		padding: 0 55px;
+}
+
 /*  fonts */
-.bike-container {
+.wrapper {
 	    padding: 0 200px;
-			width: 1120px;
+			width: 1600px;
+			margin: 0 auto;
 }
 /* intro section */
 }
@@ -99,7 +126,7 @@ p {
 }
 .topbar {
 	position: absolute;
-  width: 100%;
+  padding: 0 520px;
   margin-top: 23px;
 }
 .topbar ul {
@@ -121,32 +148,64 @@ p {
 .topbar li a img {
 	width: 60px;
 }
+img {
+		vertical-align: bottom;
+}
 .topbar li a:hover{
 	text-decoration: none;
 	color: #ff000069;
 }
 .topbar p {
-  display: inline-block;
 	padding: 0 20px;
 	float: left;
 	position: relative;
 	top: 52px;
 	transform: translateY(-50%);
+	font-family: PtSansWebBold;
 }
 /* navigation section */
-.secondary-container{
+.main {
 	background-color: #F7F7F7
 }
-.secondary-container-new-gen {
-	width: 100%;
-	width: 723px;
-	margin-top: 30px;
-	margin-bottom: 80px;
-	display: inline-block;
-	align-content: center;
+.first {
   color: #4D4B56;
-	padding: 50px 150px 80px 150px;
+	padding: 80px 150px 80px 150px;
+	max-width: 736px;
 }
-.secondary-container-new-gen img {
-	width: 35px;
+.first img {
+	width: 40px;
+}
+/* twitter-last section */
+.last {
+  color: #4D4B56;
+	padding: 80px 150px 50px 150px;
+	max-width: 736px;
+}
+.last img {
+	width: 25px;
+  padding-bottom: 15px;
+}
+/* slider */
+.dotfirst {
+	width: 0.50rem;
+	height: 0.50rem;
+	background-color: #ADB2B6;
+	border-radius: 50%;
+	display: inline-block;
+	}
+.dot {
+	width: 0.40rem;
+	height: 0.40rem;
+	border-radius: #ADB2B6;
+	background-color: #FFF;
+	border-radius: 50%;
+	border: 1px solid #ADB2B6;
+	display: inline-block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50
+		}
+.slider {
+	 color: #4D4B56;
+	 padding: 0px 0px 30px 0px;
+	 max-width: 736px;
 }
