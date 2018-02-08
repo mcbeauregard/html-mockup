@@ -79,12 +79,35 @@ h2 {
 		text-align: center;
 		line-height: 2.5em;
 }
+h3 {
+		font-family: PtSansWebBold;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2.5em;
+}
+h3{
+		font-family: PtSansWebRegular;
+		letter-spacing: 2.5px;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 2.5em;
+		font-size: 12px;
+}
 p {
 		font-family: PtSansWebRegular;
 		font-size: 12px;
 		color: #838199;
 		text-align: center;
 	  line-height: 1.8em;
+}
+.bike-images p {
+	    font-family: PtSansWebRegular;
+	    font-size: 10px;
+	    color: #a5a5a5;
+	    text-align: justify;
+	    line-height: 1.8em;
 }
 .last span {
 	font-family: PtSansWebBold;
@@ -102,7 +125,6 @@ p {
 	color: #b2b1bd;
 	padding-left: 6px;
 }
-
 .last p
 {
 		font-family: PtSansWebItalic;
@@ -116,8 +138,9 @@ p {
 /*  fonts */
 .wrapper {
 	    padding: 0 200px;
-			width: 1600px;
+			width: 988px;
 			margin: 0 auto;
+			background-color: #e8e7e7;
 }
 /* intro section */
 }
@@ -126,11 +149,11 @@ p {
 }
 .topbar {
 	position: absolute;
-  padding: 0 520px;
+	padding: 0px 216px;
   margin-top: 23px;
 }
 .topbar ul {
-	width: 547px;
+	width: 550px;
 	margin: 0 auto;
 }
 .topbar li {
@@ -148,8 +171,9 @@ p {
 .topbar li a img {
 	width: 60px;
 }
-img {
+.hero img {
 		vertical-align: bottom;
+		width: 100%;
 }
 .topbar li a:hover{
 	text-decoration: none;
@@ -175,6 +199,110 @@ img {
 .first img {
 	width: 40px;
 }
+/* bike images */
+img {
+	padding: 0;
+	margin: 0;
+}
+.bike-images {
+	background-color: #FFFF;
+	position: relative;
+}
+.first-container {
+	vertical-align: bottom;
+	display: table;
+	margin-bottom: -1px;
+}
+.first-left {
+	width: 656px;
+}
+.first-right {
+	display: table-cell;
+	vertical-align: bottom;
+	width: 333px;
+}
+#first-vintage-seat img {
+	width: 333px;
+	height: 123px;
+	float: left;
+}
+#bike-logo img {
+	width: 72px;
+	position: absolute;
+	margin-top: 147px;
+}
+#logo img {
+	width: 72px;
+	position: absolute;
+	margin-top: 191px;
+	translateX(-55%);
+}
+#vintage-left img {
+	float: left;
+	margin: auto;
+	width: 656px;
+}
+.frame img {
+	width: 30px;
+	margin-bottom: 5px;
+}
+#vintage-text {
+	height: 141px;
+	margin-bottom: -1px;
+	overflow: hidden;
+}
+#vintage-text p {
+  padding: 0px 38px;
+}
+.divider-line {
+	height: 1px;
+	background-color: #e2e2e2;
+	margin: 0px 150px 33px;
+}
+.arrow-down {
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 6px solid #FFFF;
+	position: absolute;
+	transform: translateX(1612%);
+}
+.second-container {
+	vertical-align: bottom;
+	display: table;
+	margin-bottom: -1px;
+}
+#second-vintage-seat img {
+	width: 333px;
+	height: 123px;
+	float: left;
+}
+.second-left {
+  width: 333px;
+	display: table-cell;
+  vertical-align: bottom;
+}
+.sprocket img {
+	width: 30px;
+	margin-bottom: 5px;
+}
+#vintage-bike img {
+	float: right;
+	width: 656px;
+	vertical-align: bottom;
+}
+.second-right {
+	display: table-cell;
+	vertical-align: bottom;
+	width: 656px;
+}
+#vintage-logo img {
+	width: 100px;
+	position: absolute;
+	margin-top: 139px;
+	transform: translateX(-56%);
+}
 /* twitter-last section */
 .last {
   color: #4D4B56;
@@ -184,6 +312,9 @@ img {
 .last img {
 	width: 25px;
   padding-bottom: 15px;
+}
+.noBorder{
+	border:0;
 }
 /* slider */
 .dotfirst {
