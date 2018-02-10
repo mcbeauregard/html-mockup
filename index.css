@@ -394,7 +394,6 @@ img {
   float: right;
   width: 400px;
   vertical-align: bottom;
-  margin-bottom: 1px;
 }
 
 #retro-bike-right img {
@@ -417,6 +416,7 @@ img {
 .bottom-container {
   vertical-align: bottom;
   display: table;
+  margin-top: 14px;
 }
 
 .bottom-left {
@@ -441,6 +441,7 @@ img {
   float: left;
   width: 200px;
   vertical-align: bottom;
+  margin-top: -2px;
 }
 
 #brooks-seat img {
@@ -459,6 +460,7 @@ img {
   float: left;
   width: 400px;
   vertical-align: bottom;
+  margin-top: -1px;
 }
 
 #bottom-bike-logo img {
