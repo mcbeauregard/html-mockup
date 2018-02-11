@@ -213,7 +213,16 @@ p {
   line-height: 2.5em;
   font-size: 12px;
   color: #fff;
+}
 
+.discover-text p {
+  font-family: PtSansWebRegular;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 10px;
+  color: #fff;
 }
 /* navigation section */
 
@@ -475,6 +484,18 @@ img {
   padding: 0px -4px;
   margin-top: 108px;
   width: 400px;
+}
+
+.discover-container {
+  background-color: #252525;
+  height: 75px;
+  padding-top: 50px;
+}
+
+.discover-text {
+  border: 1px solid #ffff;
+  padding: 3px 30px;
+  margin: 0 493px;
 }
 /* twitter-last section */
 
