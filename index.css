@@ -142,7 +142,27 @@ p {
   padding: 0 55px;
 }
 
-/*  fonts */
+.bottom-text p {
+  font-family: PtSansWebRegular;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 12px;
+  color: #fff;
+}
+
+.saddle-text p {
+  font-family: PtSansWebItalic;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #838199;
+  padding-left: 6px;
+  margin-bottom: 20px;
+}
+
+/*  wrapper */
 
 .wrapper {
   padding: 0 200px;
@@ -205,25 +225,6 @@ p {
   font-family: PtSansWebBold;
 }
 
-.bottom-text p {
-  font-family: PtSansWebRegular;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 2.5em;
-  font-size: 12px;
-  color: #fff;
-}
-
-.discover-text p {
-  font-family: PtSansWebRegular;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 2.5em;
-  font-size: 10px;
-  color: #fff;
-}
 /* navigation section */
 
 .main {
@@ -286,7 +287,7 @@ img {
   width: 100px;
   position: absolute;
   margin-top: 240px;
-  translateX(-26%);
+  transform: translateX(-26%);
 }
 
 #vintage-left img {
@@ -450,7 +451,7 @@ img {
   float: left;
   width: 200px;
   vertical-align: bottom;
-  margin-top: -2px;
+  max-height: 199px;
 }
 
 #brooks-seat img {
@@ -486,17 +487,6 @@ img {
   width: 400px;
 }
 
-.discover-container {
-  background-color: #252525;
-  height: 75px;
-  padding-top: 50px;
-}
-
-.discover-text {
-  border: 1px solid #ffff;
-  padding: 3px 30px;
-  margin: 0 493px;
-}
 /* twitter-last section */
 
 .last {
@@ -540,4 +530,80 @@ img {
   color: #4D4B56;
   padding: 0px 0px 30px 0px;
   max-width: 736px;
+}
+
+/* last section */
+
+.discover-container {
+  background-color: #252525;
+  height: 75px;
+  padding-top: 50px;
+}
+
+.discover-text button {
+  border: 1px solid #ffff;
+  padding: 3px 30px;
+  margin: 0 493px;
+  font-family: PtSansWebRegular;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 10px;
+  color: #fff;
+  background-color: #252525;
+}
+
+.discover-text button:hover {
+  background-color: #fff;
+  color: #252525;
+  box-shadow: none;
+  transform: none;
+  transition: 0.1s ease-in-out;
+}
+
+.email-container {
+  background-color: #ffff;
+  padding: 50px 150px 125px 150px;
+}
+
+.email-container img {
+  width: 65px;
+  padding: 10px 420px;
+}
+
+input {
+  border: 1px solid #e8e7e7;
+  padding: 5px 30px;
+  margin: 3px 255px;
+  position: absolute;
+  padding: 9px 109px 9px 20px;
+  font-family: PtSansWebItalic;
+  font-size: 14px;
+  color: #e8e7e7;
+  text-align: center;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+.email-container button {
+  margin: 2px 541px;
+  position: absolute;
+  background-color: #66c4a1;
+  padding: 2px 50px;
+  font-family: PtSansWebRegular;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 16px;
+  color: #fff;
+}
+
+.email-container button:hover {
+  background-color: #fff;
+  color: #66c4a1;
+  box-shadow: none;
+  transform: none;
+  transition: 0.1s ease-in-out;
 }
